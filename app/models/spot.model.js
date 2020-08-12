@@ -14,6 +14,10 @@ module.exports = (sequelize, Sequelize) => {
         isBlocked:{
             type:Sequelize.INTEGER,
             defaultValue:0
+        },
+        level:{
+            type:Sequelize.INTEGER,
+            defaultValue:1
         }
     });
 };

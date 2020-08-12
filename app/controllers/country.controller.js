@@ -4,7 +4,7 @@ const Op = db.sequelize.Op;
 //todo validation
 exports.create = (req, res) => {
 // Validate request
-    if (!req.body.title) {
+    if (!req.body.name) {
         res.status(400).send({
             message: "Content can not be empty!"
         });
@@ -91,7 +91,7 @@ exports.delete = (req, res) => {
                 });
             } else {
                 res.send({
-                    message: `Cannot delete Customer with id=${id}. Maybe Country was not found!`
+                    message: `Cannot delete Country with id=${id}. Maybe Country was not found!`
                 });
             }
         })

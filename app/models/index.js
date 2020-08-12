@@ -30,6 +30,7 @@ db.cities = require('./city.model')(sequelize,Sequelize);
 db.lots = require('./lot.model')(sequelize,Sequelize);
 db.spots = require('./spot.model')(sequelize,Sequelize);
 db.bills = require('./bill.model')(sequelize,Sequelize);
+db.rates = require('./rate.model')(sequelize,Sequelize);
 db.allocations = require('./allocation.model')(sequelize,Sequelize);
 db.countries.hasMany(db.cities,{as:"cities"});
 db.cities.belongsTo(db.countries,{
@@ -51,7 +52,7 @@ db.bills.belongsTo(db.customers,{
     foreignKey:'customerId',
     as:'customer'
 })
-db.allocations.hasOne(db.vehicles)
-db.allocations.hasOne(db.spots)
+db.vehicles.hasOne(db.allocations,{as:"vehicles"});
+db.spots.hasOne(db.allocations,{as:"spots"});
 
 module.exports = db;
