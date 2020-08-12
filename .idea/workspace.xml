@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83f59bcc-d82c-48fb-ae77-95f5cac9b1f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/spot.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/bill.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/bill.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/city.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/city.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/country.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/country.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/customer.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/customer.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/lots.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/allocation.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/spots.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/lot.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/vehicle.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/vehicle.model.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fzKkP5qcnaACnu41ZbP0PdAIan" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.3.0" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Node\Pratilipi\parking-lot-backend\app\models" />
+      <recent name="D:\Projects\Node\Pratilipi\parking-lot-backend\app\config" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83f59bcc-d82c-48fb-ae77-95f5cac9b1f8" name="Default Changelist" comment="" />
+      <created>1597215623262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597215623262</updated>
+      <workItem from="1597215625020" duration="18183000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="542" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597216913222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597216913222" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1597235135155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1597235135155" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1597235135155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1597235135155" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1597235135155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1597235135155" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1597235135155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1597235135155" />
+    <state x="47" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597234667504">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="47" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1597234667504" />
+    <state x="47" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597221009174" />
+  </component>
+</project>
