@@ -13,7 +13,9 @@ exports.create = (req, res) => {
     const spot = {
         name: req.body.name,
         shortName: req.body.shortName,
-        type:req.body.type
+        type:req.body.type,
+        lotId: req.body.lotId,
+        level: req.body.level
     };
     Spot.create(spot)
         .then(data => {

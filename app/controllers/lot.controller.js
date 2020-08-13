@@ -10,7 +10,8 @@ exports.create = (req, res) => {
         return;
     }
     const lot = {
-        name: req.body.name
+        name: req.body.name,
+        cityId: req.body.cityId
     };
     Lot.create(lot)
         .then(data => {

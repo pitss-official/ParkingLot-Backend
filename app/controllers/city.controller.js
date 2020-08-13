@@ -12,6 +12,7 @@ exports.create = (req, res) => {
     }
     const city = {
         name: req.body.name,
+        countryId: req.body.countryId,
         shortName: req.body.shortName
     };
     City.create(city)
