@@ -47,10 +47,10 @@ db.spots.belongsTo(db.lots,{
     foreignKey:'lotId',
     as:'lot'
 })
-db.customers.hasMany(db.bills,{as:"bills"});
-db.bills.belongsTo(db.customers,{
-    foreignKey:'customerId',
-    as:'customer'
+db.vehicles.hasMany(db.bills,{as:"bills"});
+db.bills.belongsTo(db.vehicles,{
+    foreignKey:'vehicleId',
+    as:'vehicle'
 })
 db.vehicles.hasOne(db.allocations,{as:"vehicles"});
 db.spots.hasOne(db.allocations,{as:"spots"});

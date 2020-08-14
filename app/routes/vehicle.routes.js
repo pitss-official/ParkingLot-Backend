@@ -7,6 +7,5 @@ module.exports = app => {
     router.post('/checkin',vehicle.checkIn);
     router.post('/empcheckIn',vehicle.empCheckIn);
     router.post('/empcheckOut',vehicle.empcheckOut);
-    router.post('/checkout/:number',vehicle.checkOut);
     app.use('/api/vehicle', router);
 };

@@ -6,7 +6,9 @@ module.exports = app => {
     router.post("/", lot.create);
 
     router.get("/", lot.findAll);
+
     router.get('/byCityId/:id',lot.findAllByLotId);
+
     router.get("/:id", lot.findOne);
 
     router.put("/:id", lot.update);
